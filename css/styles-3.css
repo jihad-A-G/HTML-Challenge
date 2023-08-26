@@ -1,0 +1,136 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: Inter,sans-serif;
+    background-color:  #212b2d;
+}
+
+.header{
+    background-color:#37565b;
+    height: 165px;
+    width: 100%;
+    padding: 50px 90px; 
+    color: white;
+}
+.nav-section{
+    background-color: #333d3f;
+    width: 100%;
+    color: white;
+}
+.main-nav{
+    display: flex;
+    align-items: baseline;
+    list-style: none;
+    font-size: 18px;
+    margin: 0;
+    padding: 20px;
+}
+.main-nav li{
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-nav a{
+color: white;
+text-decoration: none;
+}
+main{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding: 30px;
+    margin: 0px 30px;
+    border-bottom: 1px solid white;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.first--sidebar{
+    color: white;
+    margin: 0;
+}
+.first--sidebar h2{
+    padding-left: 15px;
+    margin: 0;
+}
+.first--sidebar ul{
+    padding: 0;
+}
+
+.first--sidebar li{
+    text-decoration: underline;
+    margin: 0;
+    padding: 8px 0px;
+
+}
+.second--sidebar{
+    padding: 20px 50px 40px 0px;
+    color: white;
+    margin: 0; 
+    line-height: 1.5;
+}
+.second--sidebar h2{
+    padding: 15px;
+}
+.flex-template{
+    display: flex;
+    width: 100%;
+}
+.gallery{
+    color: white;
+    margin: 0;
+    line-height: 1.8;
+    margin-bottom: 80px;
+
+}
+
+.gallery h1{
+    border-bottom: 1px solid white;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.read-more{
+    padding: 15px 15px;
+    border: 0;
+    background-color: #96abaf;
+    color: black;
+    font-weight: bold;
+    display: block;
+}
+.subscription{
+
+    color: white;
+    line-height: 1.5;
+    width: fit-content;
+    padding-right: 20px;
+
+}
+.subscription p {
+    margin: 40px 0px;
+}
+
+.services{
+    color: white;
+    line-height: 1.5;
+    width: fit-content;
+    padding-left: 20px;
+    border-left: 1px solid white;
+}
+.services p {
+    margin: 40px 0px;
+
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: white;
+    line-height: 1.5;
+
+}
